@@ -6,7 +6,7 @@ export default function Projects() {
        <div>
           <Header />
        </div>
-       <div className="w-full h-96 grid mx-auto">
+       <div className="w-fit h-96 grid mx-auto">
           <div className="p-4 mx-auto w-8/12 mt-16">
             <h1 className="text-white text-5xl font-semibold flex relative h-2">Projects</h1>
             <a href="https://github.com/riskysh/Math-Speedrun" target="_blank">

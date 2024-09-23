@@ -1,9 +1,14 @@
+import Header from "@/components/Header";
 import Link from "next/link";
 
 export default function Home() {
   return (
+  <>
+  <div>
+    <Header />
+  </div>
     <main className="flex flex-col items-center w-full mx-auto px-8">
-      <div className="w-full max-w-7xl mt-16">
+      <div className="w-fit max-w-7xl mt-16">
         <span className="text-5xl font-semibold">Risky</span>
         <div className="flex flex-col gap-4 mt-12 font-geist-mono font-medium">
           <p>Hi! I am Risky, a creative web developer.</p>
@@ -36,6 +41,7 @@ export default function Home() {
         </div>
       </div>
     </main>
+  </>
   );
 }
 
